@@ -40,7 +40,7 @@ if __name__ == "__main__":
 	optional.add_argument("-q", help="Specify the second prime *NOTE: Either both p and q or n must be given* Format: Int or Hex")
 	optional.add_argument("-n", help="Specify the modulus *NOTE: Either both p and q or n must be given* Format: Int or Hex")
 	required.add_argument("-e", help="Specify the encryption exponent. Format: Int or Hex")
-	optional.add_argument("-v", help="Verbose mode. Format: 0=False, 1 = True")
+	optional.add_argument("-v", help="Verbose mode. Format: 0 = False, 1 = True")
 	optional.add_argument("-o", help="Output mode. Format: 0 (default) = Hex, 1 = Int")
 	args = parser.parse_args()
 	
