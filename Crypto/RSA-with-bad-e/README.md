@@ -18,10 +18,12 @@ Required Arguments:
 Optional Arguments:
   -p P  Specify the first prime *NOTE: Either both p and q or n must be given*
         Format: Int or Hex
-  -q Q  Specify the second prime *NOTE: Either both p and q or n must be
-        given* Format: Int or Hex
+  -q Q  Specify the second prime *NOTE: Either both p and q or n must be given* 
+        Format: Int or Hex
   -n N  Specify the modulus *NOTE: Either both p and q or n must be given*
         Format: Int or Hex
-  -v V  Verbose mode. Format: 0=  False, 1 = True
-  -o O  Output mode. Format: 0 (default) = Hex, 1 = Int
+  -v V  Verbose mode. 
+        Format: 0=  False, 1 = True
+  -o O  Output mode. 
+        Format: 0 (default) = Hex, 1 = Int
 ```
