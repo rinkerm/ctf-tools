@@ -12,8 +12,10 @@ Usage: rsa-with-bad-e.py [-h] [-c C] [-p P] [-q Q] [-n N] [-e E] [-v V] [-o O]
 RSA With Bad e
 
 Required Arguments:
-  -c C  Specify the ciphertext. Format: Int or Hex
-  -e E  Specify the encryption exponent. Format: Int or Hex
+  -c C  Specify the ciphertext. 
+        Format: Int or Hex
+  -e E  Specify the encryption exponent. 
+        Format: Int or Hex
 
 Optional Arguments:
   -p P  Specify the first prime *NOTE: Either both p and q or n must be given*
