@@ -7,7 +7,7 @@ Specifically, it refers to RSA with an encryption exponent such that e|p-1 or e|
 It works on the principal that having a small e value will yield a set of e possible plaintexts.
 
 ```
-usage: rsa-with-bad-e.py [-h] [-c C] [-p P] [-q Q] [-n N] [-e E] [-v V] [-o O]
+Usage: rsa-with-bad-e.py [-h] [-c C] [-p P] [-q Q] [-n N] [-e E] [-v V] [-o O]
 
 RSA With Bad e
 
