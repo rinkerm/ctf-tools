@@ -1,7 +1,15 @@
+#!/usr/bin/env python3
+
 import sys
 import logging
 import argparse
 import gmpy2
+
+__description__ = "RSA Decryption where e is not Coprime with Euler's Totient"
+__author__ = 'Matthew Rinker'
+__version__ = '1.0'
+__date__ = '02/28/2021'
+
 
 
 def get_numeric_value(value):
