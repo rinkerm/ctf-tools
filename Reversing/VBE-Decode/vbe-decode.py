@@ -91,6 +91,8 @@ def main():
 		o = ''
 	if(args.v is not None):
 		v = str2bool(args.v)
+	else:
+		v = 0
 	if(v):
 		print("Verbose mode Enabled")
 		
