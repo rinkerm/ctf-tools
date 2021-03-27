@@ -68,7 +68,10 @@ def decode(data,v):
 				index += 1
 			
 			if((byte_val == 9) or (byte_val > 31 and byte_val < 128) and (byte_val not in [60,62,64])): 
-				decoded_char = [c for c in decoded_bytes[byte_val - 9]][decoded_combination[index % 64]]
+				possible_values = []
+				for c in decoded_bytes[byte_val-9]:
+					possible_values.append(c)
+				decoded_char = possible_values[decoded_combination[index % 64]]
 			else:
 				decoded_char = char
 			decoded += decoded_char
